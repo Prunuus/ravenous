@@ -1,0 +1,42 @@
+
+.businessCard {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+}
+
+.imgWrapper {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.businessName {
+    font-size: 25px;
+    font-style: bold;
+    margin: 0;
+    text-align: left;
+}
+
+
+.details p{
+    text-align: left;
+}
+
+.businessDescription {
+    width: 40%;
+}
+
+.businessDescription h3, h5, p{
+    margin: 0;
+    text-align: right;
+}
+
+.businessDescription h3, h5{
+    color: rgb(218, 196, 56);
+}
+
+.textContainer {
+    display: flex;
+    gap:21.79px;
+}
